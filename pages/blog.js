@@ -36,6 +36,7 @@ export default function Blog({ posts }) {
                 tags={post.tags[index]}
                 date={post.date}
                 teaser={post.teaser}
+                id={post.id}
               />
             ))}
 

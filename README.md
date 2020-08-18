@@ -1,4 +1,4 @@
-# Temp
+# Knext
 
 ## Installation
 yarn or npm i

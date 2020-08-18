@@ -1,11 +1,13 @@
-export default function BlogItem({ title, tags, date, author, teaser }) {
+import Link from 'next/link';
+
+export default function BlogItem({ title, tags, date, author, teaser, id }) {
   return (
     <article className="entry">
 
       <header className="entry__header">
 
         <h2 className="entry__title h1">
-          <a href="single.html" title="">{title}</a>
+        <Link href={`/posts/${id}`}><a>{title}</a></Link>
         </h2>
 
         <div className="entry__meta">
