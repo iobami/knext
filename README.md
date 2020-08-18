@@ -1,1 +1,8 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# Temp
+
+## Installation
+yarn or npm i
+
+## Run app
+
+yarn dev or npm run dev
